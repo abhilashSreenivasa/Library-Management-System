@@ -11,6 +11,7 @@ if(req.query.name !=null && req.query.name !== '') {
     try{
         const authors=await Author.find(searchOptions)
         res.render('authors/index',{authors:authors,searchOptions:req.query})
+        console.log(req.query)
     }
     catch{
         res.redirect('/')
