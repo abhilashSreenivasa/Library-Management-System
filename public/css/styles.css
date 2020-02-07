@@ -203,3 +203,6 @@ ul li:hover .nav-link{
     display: flex;
     justify-content:flex-end;
 }
+.error-msg{
+    color:rgb(88, 5, 5);
+}
